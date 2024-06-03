@@ -1,0 +1,173 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Heebo", sans-serif;
+  background-color: hsl(30, 54%, 90%);
+}
+
+/* Attribution Styles */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+main{
+    background-color: aliceblue;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    width: 600px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+main img{
+    margin-bottom: 0.5rem;
+}
+
+h1{
+    font-size: 1.5rem !important;
+    font-weight: 500;
+    color: hsl(24, 5%, 18%);
+    font-family: youngserif;
+}
+
+.heading{
+    font-size: 0.8rem;
+}
+
+.heading p {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: hsl(24, 5%, 18%);
+}
+
+h3{
+    font-size: 1rem;
+}
+
+.preparation-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 16px 0;
+    color: hsl(330, 50%, 60%);
+}
+
+.preparation-time ul li {
+    margin: 8px 0;
+}
+
+.preparation-time ul li span {
+    color: hsl(24, 5%, 18%);
+    font-weight: 600;
+}
+
+.ingredients{
+    margin: 1rem 0;
+    border-bottom: 1px solid hsl(30, 18%, 87);
+}
+
+.ingredients h3{
+    color: hsl(330, 50%, 60%);
+    font-size: 1.4rem;
+}
+
+.ingredients ul{
+    margin-left: 2rem;
+    list-style: square;
+    padding-bottom: 1.5rem;
+}
+
+.ingredients li{
+    margin: 8px 0;
+    color: hsl(24, 5%, 18%);
+}
+
+.instructions {
+    margin-top: 2rem;
+    color: hsl(24, 5%, 18%);
+}
+
+.instructions h2,
+.nutrition h2 {
+    color: hsl(330, 50%, 60%);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;  
+}
+
+.instructions ol{
+   margin: 0 2rem;
+   padding-bottom: 1.5rem; 
+}
+
+.instructions ol li {
+    margin: 10px 0;
+}
+
+.instructions ol li p {
+    position: relative;
+    left: 20px;
+}
+
+.instructions ol li span {
+    font-weight: 600;
+}
+
+ol li::marker{
+    color: hsl(330, 50%, 60%);
+    font-weight: 600;
+    font-size: 0.9rem;  
+}
+
+.nutrition{
+    margin: 1rem 0;
+}
+
+.calorie-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.calorie-input div {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 10px 0;
+}
+
+.calorie-input div:first-child {
+    padding-top: 25px;
+}
+
+.calorie-input div:last-child {
+    border-bottom: unset;
+}
+
+.calorie-input .calorie {
+    width: 50%;
+}
+
+.calorie-input div .calorie-data {
+    width: 50%;
+    font-weight: 600;
+    color: hsl(330, 50%, 60%);
+}
